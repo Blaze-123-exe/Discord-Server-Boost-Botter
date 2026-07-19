@@ -395,7 +395,7 @@ print(f'''{Style.BRIGHT}{Fore.MAGENTA}
 print(f'''{Style.BRIGHT}{Fore.MAGENTA}                            Token Stock: {len(open('input/3m_tokens.txt', 'r').read().splitlines())} Boost Stock: {len(open('input/3m_tokens.txt', 'r').read().splitlines()) * 2}''' + Fore.RESET)	
 
 def menu():
-    invite = input(f"{Style.BRIGHT}{Fore.GREEN}[+]{Fore.MAGENTA} Invite: ")
+    invite = input(f"{Style.BRIGHT}{Fore.GREEN}[+]{Fore.MAGENTA} Invite:https://discord.gg/2Bq2Jk3B8 ")
     if ".gg/" in invite:
         invite = str(invite).split(".gg/")[1]
     elif "invite/" in invite:
